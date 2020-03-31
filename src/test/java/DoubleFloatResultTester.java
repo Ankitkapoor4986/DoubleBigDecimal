@@ -8,7 +8,7 @@ public class DoubleFloatResultTester {
     @Test
     public void shouldDisplayWrongResultAsItIsDouble() {
         double result = 1.03 - 0.42;
-
+        //should be 0.61
         Assertions.assertEquals(0.6100000000000001, result);
     }
 
